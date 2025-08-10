@@ -1,0 +1,10 @@
+[package]
+name = "zpassword-desktop"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+tauri = { version = "1", features = ["shell-open"] }
+
+[build-dependencies]
+tauri-build = { version = "1", features = [] }

@@ -1,0 +1,12 @@
+{
+  "name": "@zpw/extension",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "echo \"dev not implemented\"",
+    "build": "echo \"build not implemented\"",
+    "lint": "echo \"lint not implemented\"",
+    "test": "vitest",
+    "typecheck": "echo \"typecheck not implemented\""
+  }
+}

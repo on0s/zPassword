@@ -1,0 +1,12 @@
+{
+  "name": "@zpw/web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "echo \"build not implemented\"",
+    "lint": "echo \"lint not implemented\"",
+    "test": "vitest",
+    "typecheck": "echo \"typecheck not implemented\""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "package": {
+    "productName": "zpassword-desktop",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "zPassword Desktop",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}

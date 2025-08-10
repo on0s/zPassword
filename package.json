@@ -1,0 +1,21 @@
+{
+  "name": "zpassword",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "dev:web": "pnpm --filter @zpw/web dev",
+    "dev:desktop": "pnpm --filter @zpw/desktop dev",
+    "dev:extension": "pnpm --filter @zpw/extension dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
